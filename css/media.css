@@ -1,0 +1,239 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+  .header__inner {
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center;
+  }
+
+  .header__logo {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+
+  .header__logo img {
+    margin: 0 auto;
+  }
+
+  .header {
+    padding: 20px 0;
+    box-shadow: 0 4px rgb(201 201 201 / 25%);
+  }
+
+  .debt {
+    padding: 40px 0;
+  }
+
+  .debt__title {
+    font-size: 48px;
+  }
+
+  .debt__title span {
+    font-size: 40px;
+    line-height: 1;
+  }
+
+  .debt__ask {
+    font-size: 20px;
+  }
+
+  .debt__step {
+    margin-bottom: 50px;
+  }
+
+  .step {
+    margin-bottom: 50px;
+  }
+
+  .debt__item {
+    flex: 0 0 300px;
+    padding: 28px;
+  }
+
+  .footer__top {
+    display: block;
+    text-align: center;
+  }
+
+  ul.footer__list {
+    columns: 1;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 300px;
+  }
+
+  .footer__inner {
+    justify-content: center;
+  }
+
+  .footer__copy {
+    justify-content: center;
+  }
+
+  .footer__links {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .footer__logo {
+    display: block;
+  }
+
+  .footer__logo img {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__phone-link {
+    font-size: 16px;
+  }
+
+  .header__audit-text {
+    font-size: 12px;
+  }
+
+  .debt__title {
+    font-size: 34px;
+    line-height: 1.2;
+  }
+
+  .debt__title span {
+    font-size: 28px;
+  }
+
+  .debt__list {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .debt__ask {
+    font-size: 16px;
+  }
+
+  .debt__item-title {
+    font-size: 20px;
+  }
+
+  .footer__copy {
+    display: block;
+    text-align: center;
+  }
+
+  .footer__copy-item {
+    margin-bottom: 15px;
+  }
+  
+  .footer__copy-item + .footer__copy-item {
+    margin-left: 0;
+  }
+
+  .footer__link {
+    font-size: 20px;
+  }
+
+  .footer__item {
+    margin-bottom: 30px;
+  }
+
+  .footer__links {
+    margin-bottom: 15px;
+  }
+
+  .footer__info p {
+    margin-bottom: 20px;
+  }
+
+  .popup__body {
+    height: auto;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__inner {
+    display: block;
+    text-align: center;
+  }
+
+  .header__logo {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  .header__phone {
+    margin-bottom: 15px;
+  }
+
+  .header__audit {
+    text-align: center;
+  }
+
+  .debt__step {
+    margin-bottom: 25px;
+  }
+
+  .debt__title {
+    font-size: 26px;
+  }
+
+  .debt__title span {
+    font-size: 22px;
+  }
+
+  .debt {
+    padding: 25px 0;
+  }
+
+  .step {
+    min-height: auto;
+    padding: 20px;
+    margin-bottom: 25px;
+  }
+
+  .step__title {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  .step__subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .btn--arrow:before {
+    content: none;
+  }
+
+  .footer {
+    padding: 25px 0;
+  }
+
+  .popup__btn {
+    min-width: 100%;
+  }
+
+  .step__inp {
+    margin-bottom: 15px;
+  }
+
+  .step__title {
+    margin-bottom: 15px;
+  }
+
+  .popup__body {
+    padding: 20px;
+  }
+
+  .popup__close {
+    top: 10px;
+    right: 10px;
+  }
+}
